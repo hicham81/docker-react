@@ -10,7 +10,7 @@ deploy:
  regions:us-west-2
  app:docker
  env:"docker-env"
- backuet_name:"elasticbeanstalk-us-west-2-xxxxxxxxx //S3 backuet is a hard drive running on AWS"
+ backuet_name:"elasticbeanstalk-us-west-2-xxxxxxxxx S3 backuet is a hard drive running on AWS"
  bucket_path:"docker"
  on:
   bransh: master
